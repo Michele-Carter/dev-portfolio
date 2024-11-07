@@ -69,9 +69,25 @@ export const navItems = [
     },
   ];
   
-  export const projects = [
+export const projects = [
+  {
+    id: 1,
+    title: "Brainwave",
+    des: "Modern design stack for modern tech.",
+    img: "/Brainwave.svg",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    link: "https://brainwaveaiconceptbuild.vercel.app/",
+  },
+  {
+    id: 2,
+    title: "iPhone Website Clone",
+    des: "Crisp, clean, modern minimalism",
+    img: "/iPhoneWebsiteClone.svg",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "https://michele-iphone-clone.netlify.app/",
+  },
     {
-      id: 1,
+      id: 3,
       title: "Husk",
       des: "Design thinking for the digital age.",
       img: "/husk.svg",
@@ -79,7 +95,7 @@ export const navItems = [
       link: "https://www.pixelperfectwebdesigns.co.nz/projects/husk",
     },
     {
-      id: 2,
+      id: 4,
       title: "Burst Digital",
       des: "A new chapter, a fresh outlook",
       img: "/burst.svg",
@@ -87,7 +103,7 @@ export const navItems = [
       link: "https://www.burstdigital.co.nz/social-media",
     },
     {
-      id: 3,
+      id: 5,
       title: "Autistic Innovations",
       des: "A custom built, sleek yet soft design",
       img: "/innovations.svg",
@@ -95,7 +111,7 @@ export const navItems = [
       link: "https://www.autisticinnovations.co.nz/",
     },
     {
-      id: 4,
+      id: 6,
       title: "Mac Auto Services",
       des: "A fresh idea for an outdated design",
       img: "/macauto.svg",
